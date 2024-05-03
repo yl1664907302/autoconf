@@ -1,0 +1,126 @@
+2024/05/03 23:42:04 [emerg] 32160#27112: invalid number of arguments in "include" directive in ./conf/nginx.conf:20
+2024/05/03 23:42:12 [emerg] 29896#30040: invalid number of arguments in "include" directive in ./conf/nginx.conf:20
+2024/05/03 23:43:06 [notice] 28308#9188: signal process started
+2024/05/03 23:44:47 [notice] 30420#31496: signal process started
+2024/05/03 23:45:13 [notice] 22004#16664: signal process started
+2024/05/03 23:47:24 [notice] 13384#10616: signal process started
+2024/05/03 23:50:58 [notice] 24412#3904: signal process started
+2024/05/03 23:51:30 [notice] 30196#27132: signal process started
+2024/05/03 23:53:14 [notice] 31048#31748: signal process started
+2024/05/03 23:53:53 [notice] 8104#24800: signal process started
+2024/05/03 23:55:03 [notice] 27732#28788: signal process started
+2024/05/04 00:00:19 [notice] 20944#23832: signal process started
+2024/05/04 00:02:52 [notice] 31760#27304: signal process started
+2024/05/04 00:07:54 [notice] 12280#9184: signal process started
+2024/05/04 00:07:54 [error] 12280#9184: OpenEvent("Global\ngx_reload_31964") failed (2: The system cannot find the file specified)
+2024/05/04 00:08:09 [error] 21100#5724: *1 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:178: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 00:08:11 [error] 21100#5724: *2 CreateFile() "./html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2024/05/04 00:08:21 [error] 21100#5724: *3 [lua] action_conf.lua:107: copy_files(): Failed to open source file D:/openresty-1.25.3.1-win64/example/002---template.conf, client: 127.0.0.1, server: , request: "GET /action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=8888/kube_name=k1/template_number=002/ssl=ture HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 00:08:21 [error] 21100#5724: *3 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:71: attempt to index local 'r_file' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'replace_word'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:130: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:178: in main chunk, client: 127.0.0.1, server: , request: "GET /action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=8888/kube_name=k1/template_number=002/ssl=ture HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 00:08:21 [error] 21100#5724: *4 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:178: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=8888/kube_name=k1/template_number=002/ssl=ture"
+2024/05/04 00:08:25 [error] 21100#5724: *5 [lua] action_conf.lua:107: copy_files(): Failed to open source file D:/openresty-1.25.3.1-win64/example/002---template.conf, client: 127.0.0.1, server: , request: "GET /newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=8888/kube_name=k1/template_number=002/ssl=ture HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 00:08:25 [error] 21100#5724: *5 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:71: attempt to index local 'r_file' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'replace_word'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:130: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:178: in main chunk, client: 127.0.0.1, server: , request: "GET /newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=8888/kube_name=k1/template_number=002/ssl=ture HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 00:08:25 [error] 21100#5724: *6 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:178: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=8888/kube_name=k1/template_number=002/ssl=ture"
+2024/05/04 00:08:51 [error] 21100#5724: *7 [lua] action_conf.lua:107: copy_files(): Failed to open source file D:/openresty-1.25.3.1-win64/example/002---template.conf, client: 127.0.0.1, server: , request: "GET /newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=8888/kube_name=k1/template_number=002/ssl=ture HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 00:08:51 [error] 21100#5724: *7 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:71: attempt to index local 'r_file' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'replace_word'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:130: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:178: in main chunk, client: 127.0.0.1, server: , request: "GET /newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=8888/kube_name=k1/template_number=002/ssl=ture HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 00:08:51 [error] 21100#5724: *8 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:178: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=8888/kube_name=k1/template_number=002/ssl=ture"
+2024/05/04 00:09:31 [error] 21100#5724: *9 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:84: attempt to concatenate local 'env_name' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'make_newhost'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:138: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:178: in main chunk, client: 127.0.0.1, server: , request: "GET /newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=8888/kube_name=k1/template_number=001/ssl=ture HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 00:09:31 [error] 21100#5724: *10 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:178: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=8888/kube_name=k1/template_number=001/ssl=ture"
+2024/05/04 00:09:59 [emerg] 13396#19792: host not found in upstream "upstream_kubernetes_k1_ingress" in D:/openresty-1.25.3.1-win64/site.enable/test2.conf:48
+2024/05/04 00:10:00 [error] 21100#5724: *11 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:178: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=8888/kube_name=k1/template_number=001/ssl=ture/env_name=com"
+2024/05/04 00:12:32 [emerg] 10424#15596: host not found in upstream "upstream_kubernetes_k1_ingress" in D:/openresty-1.25.3.1-win64/site.enable/test2.conf:48
+2024/05/04 00:12:33 [error] 21100#5724: *13 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:178: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=8888/kube_name=k1/template_number=001/ssl=ture/env_name=com"
+2024/05/04 00:12:49 [emerg] 18388#15156: host not found in upstream "upstream_kubernetes_k1_ingress" in D:/openresty-1.25.3.1-win64/site.enable/test2.conf:48
+2024/05/04 00:13:41 [emerg] 13336#5392: invalid number of arguments in "include" directive in ./conf/nginx.conf:21
+2024/05/04 00:13:47 [emerg] 5160#15772: host not found in upstream "upstream_kubernetes_k1_ingress" in D:/openresty-1.25.3.1-win64/site.enable/test2.conf:48
+2024/05/04 00:14:01 [emerg] 12448#20796: cannot load certificate ".//opt/config/k8s-load-balancer/cert/boss.ttpai.cn_nginx/boss.ttpai.cn.crt": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('.//opt/config/k8s-load-balancer/cert/boss.ttpai.cn_nginx/boss.ttpai.cn.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2024/05/04 00:14:36 [emerg] 11196#18696: cannot load certificate ".//opt/config/k8s-load-balancer/cert/boss.ttpai.cn_nginx/boss.ttpai.cn.crt": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('.//opt/config/k8s-load-balancer/cert/boss.ttpai.cn_nginx/boss.ttpai.cn.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2024/05/04 00:14:36 [error] 21100#5724: *15 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:178: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=8888/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 00:14:55 [emerg] 5180#20772: cannot load certificate ".//opt/config/k8s-load-balancer/cert/boss.ttpai.cn_nginx/boss.ttpai.cn.crt": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('.//opt/config/k8s-load-balancer/cert/boss.ttpai.cn_nginx/boss.ttpai.cn.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2024/05/04 00:16:34 [notice] 18656#6868: signal process started
+2024/05/04 00:16:39 [emerg] 11904#3868: cannot load certificate ".//opt/config/k8s-load-balancer/cert/boss.ttpai.cn_nginx/boss.ttpai.cn.crt": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('.//opt/config/k8s-load-balancer/cert/boss.ttpai.cn_nginx/boss.ttpai.cn.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2024/05/04 00:16:39 [error] 3464#11772: *17 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:178: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=8888/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 00:16:59 [emerg] 18064#7156: cannot load certificate ".//opt/config/k8s-load-balancer/cert/boss.ttpai.cn_nginx/boss.ttpai.cn.crt": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('.//opt/config/k8s-load-balancer/cert/boss.ttpai.cn_nginx/boss.ttpai.cn.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2024/05/04 00:17:48 [emerg] 13780#18824: no "ssl_certificate" is defined for the "listen ... ssl" directive in D:/openresty-1.25.3.1-win64/site.enable/test2.conf:19
+2024/05/04 00:24:57 [notice] 9868#3924: signal process started
+2024/05/04 00:25:01 [emerg] 11604#15540: invalid number of arguments in "ssl_certificate_key" directive in D:/openresty-1.25.3.1-win64/site.enable/test2.conf:33
+2024/05/04 00:25:01 [error] 7504#18772: *19 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:178: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=8888/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 00:25:09 [emerg] 9772#21420: invalid number of arguments in "ssl_certificate_key" directive in D:/openresty-1.25.3.1-win64/site.enable/test2.conf:33
+2024/05/04 00:25:33 [emerg] 17616#3856: bind() to 0.0.0.0:8888 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2024/05/04 00:26:07 [error] 7504#18772: *21 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:178: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 00:31:13 [notice] 24148#24228: signal process started
+2024/05/04 00:31:19 [error] 5008#784: *23 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:194: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 00:42:18 [notice] 15068#21176: signal process started
+2024/05/04 00:42:22 [error] 23024#17772: *25 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:176: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
