@@ -53,7 +53,7 @@ end
 -- 示例操作：执行git push
 function git:pushCommand()
 local Result = executeGitCommand("git push origin master")
-ngx.say("git push ok \n")
+ngx.say("git push result: ok \n")
 end
 
 return git
