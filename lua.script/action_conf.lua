@@ -144,7 +144,7 @@ function copy_files(source_dir, target_dir,ssl_key)
 
 
     -- 回显
-    ngx.say("1. conf create ",key)
+    ngx.say("2. conf create ",key)
 end
 
 
@@ -152,10 +152,10 @@ end
 function vali_conf()
     local result = os.execute("D:/openresty-1.25.3.1-win64/nginx.exe  -t")
     if result then
-    ngx.say("2. conf verify success")
+    ngx.say("3. conf verify success")
     return true
     else
-    ngx.say("2. conf verify fail")
+    ngx.say("3. conf verify fail")
     return false
     end
 end
@@ -164,17 +164,41 @@ end
 function reload_conf()
    local result = os.execute("D:/openresty-1.25.3.1-win64/nginx.exe  -s reload")
    if result then
-    ngx.say("3. conf relaod success")
+    ngx.say("4. conf relaod success")
     return true
     else
-    ngx.say("3. conf relaod fail")
+    ngx.say("4. conf relaod fail")
     return false
     end
 end
 
+-- 配置文件生成前git pull
+function pull_git()
+   local git  = require("git")
+   local message = git:pullCommand()
+   ngx.say("1. conf pull result is :",message)
+end
+
+-- 配置文件生成后show
+function show_conf()
+   local target_file = target_dir .. "/" .. newname
+   local f_target = io.open(target_file, "rb")
+   if not f_target then
+       ngx.log(ngx.ERR, "Failed to open source file ", source_file)
+       key = "fail"
+   end
+   local content = f_target:read("*all")
+   ngx.say("5. conf is :\n")
+   ngx.say("\n")
+   ngx.say(content)
+end
+
 -- 执行操作
+ngx.say("Please visit the URL below to complete the git commit: /git_push \n")
+pull_git()
 copy_files(source_dir, target_dir,ssl)
 if vali_conf()then
    reload_conf()
+   show_conf()
 end
 return action_conf

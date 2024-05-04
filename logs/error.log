@@ -124,3 +124,385 @@ stack traceback:
 coroutine 0:
 	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
 	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:176: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 12:35:49 [error] 5244#5240: *9 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:176: in main chunk, client: 202.114.176.63, server: , request: "GET / HTTP/1.0"
+2024/05/04 12:36:11 [error] 5244#5240: *5 connect() failed (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 202.114.176.63, server: go.ttpai.cn, request: "GET / HTTP/1.0", upstream: "http://192.168.163.27:30080/"
+2024/05/04 12:36:16 [error] 5244#5240: *15 connect() failed (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 202.114.176.63, server: go.ttpai.cn, request: "OPTIONS / HTTP/1.0", upstream: "http://192.168.163.27:30080/"
+2024/05/04 12:36:21 [error] 5244#5240: *18 connect() failed (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 202.114.176.63, server: go.ttpai.cn, request: "GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0", upstream: "http://192.168.163.27:30080/nice%20ports%2C/Tri%6Eity.txt%2ebak"
+2024/05/04 12:37:12 [error] 5244#5240: *33 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:176: in main chunk, client: 202.114.176.63, server: , request: "GET /nmaplowercheck1714797432 HTTP/1.1", host: "10.9.162.186:8099"
+2024/05/04 12:37:12 [error] 5244#5240: *27 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:176: in main chunk, client: 202.114.176.63, server: , request: "POST /sdk HTTP/1.1", host: "10.9.162.186:8099"
+2024/05/04 12:37:12 [error] 5244#5240: *29 CreateFile() "./html/nmaplowercheck1714797432" failed (2: The system cannot find the file specified), client: 202.114.176.63, server: localhost, request: "GET /nmaplowercheck1714797432 HTTP/1.1", host: "10.9.162.186"
+2024/05/04 12:37:12 [error] 5244#5240: *32 CreateFile() "./html/sdk" failed (2: The system cannot find the file specified), client: 202.114.176.63, server: localhost, request: "POST /sdk HTTP/1.1", host: "10.9.162.186"
+2024/05/04 12:37:12 [error] 5244#5240: *25 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:176: in main chunk, client: 202.114.176.63, server: , request: "GET / HTTP/1.0"
+2024/05/04 12:37:12 [error] 5244#5240: *39 CreateFile() "./html/HNAP1" failed (2: The system cannot find the file specified), client: 202.114.176.63, server: localhost, request: "GET /HNAP1 HTTP/1.1", host: "10.9.162.186"
+2024/05/04 12:37:12 [error] 5244#5240: *40 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:176: in main chunk, client: 202.114.176.63, server: , request: "GET /evox/about HTTP/1.1", host: "10.9.162.186:8099"
+2024/05/04 12:37:12 [error] 5244#5240: *41 CreateFile() "./html/evox/about" failed (3: The system cannot find the path specified), client: 202.114.176.63, server: localhost, request: "GET /evox/about HTTP/1.1", host: "10.9.162.186"
+2024/05/04 12:37:12 [error] 5244#5240: *42 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:176: in main chunk, client: 202.114.176.63, server: , request: "GET /HNAP1 HTTP/1.1", host: "10.9.162.186:8099"
+2024/05/04 12:37:33 [error] 5244#5240: *31 connect() failed (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 202.114.176.63, server: go.ttpai.cn, request: "GET /nmaplowercheck1714797432 HTTP/1.1", upstream: "http://192.168.163.27:30080/nmaplowercheck1714797432", host: "10.9.162.186"
+2024/05/04 12:37:33 [error] 5244#5240: *23 connect() failed (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 202.114.176.63, server: go.ttpai.cn, request: "POST /sdk HTTP/1.1", upstream: "http://192.168.163.27:30080/sdk", host: "10.9.162.186"
+2024/05/04 12:37:33 [error] 5244#5240: *72 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:176: in main chunk, client: 202.114.176.63, server: , request: "GET / HTTP/1.0"
+2024/05/04 12:37:33 [error] 5244#5240: *76 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:176: in main chunk, client: 202.114.176.63, server: , request: "GET / HTTP/1.1", host: "10.9.162.186"
+2024/05/04 12:37:40 [error] 5244#5240: *54 connect() failed (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 202.114.176.63, server: go.ttpai.cn, request: "GET /HNAP1 HTTP/1.1", upstream: "http://192.168.163.27:30080/HNAP1", host: "10.9.162.186"
+2024/05/04 12:37:40 [error] 5244#5240: *57 connect() failed (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 202.114.176.63, server: go.ttpai.cn, request: "GET /evox/about HTTP/1.1", upstream: "http://192.168.163.27:30080/evox/about", host: "10.9.162.186"
+2024/05/04 12:37:54 [error] 5244#5240: *71 connect() failed (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 202.114.176.63, server: go.ttpai.cn, request: "GET / HTTP/1.0", upstream: "http://192.168.163.27:30080/"
+2024/05/04 12:37:59 [notice] 5872#23436: signal process started
+2024/05/04 12:38:01 [error] 5244#5240: *80 connect() failed (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 202.114.176.63, server: go.ttpai.cn, request: "GET / HTTP/1.1", upstream: "http://192.168.163.27:30080/", host: "10.9.162.186"
+2024/05/04 12:38:32 [error] 17988#23512: *83 failed to load external Lua file "D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua": D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:178: function arguments expected near 'end', client: 127.0.0.1, server: , request: "GET /action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=8888/kube_name=k1/template_number=001/env_name=com HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 12:38:32 [error] 17988#23512: *84 failed to load external Lua file "D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua": D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:178: function arguments expected near 'end', client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=8888/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 12:40:05 [notice] 7832#20868: signal process started
+2024/05/04 12:40:07 [error] 15668#22200: *85 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/git.lua:6: attempt to call global 'executeGitCommand' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/git.lua: in function 'pullCommand'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:177: in function 'pull_git'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:181: in main chunk, client: 127.0.0.1, server: , request: "GET /action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=8888/kube_name=k1/template_number=001/env_name=com HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 12:40:07 [error] 15668#22200: *86 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/git.lua:6: attempt to call global 'executeGitCommand' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/git.lua: in function 'pullCommand'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:177: in function 'pull_git'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:181: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=8888/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 12:40:09 [error] 15668#22200: *87 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/git.lua:6: attempt to call global 'executeGitCommand' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/git.lua: in function 'pullCommand'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:177: in function 'pull_git'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:181: in main chunk, client: 127.0.0.1, server: , request: "GET /action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=8888/kube_name=k1/template_number=001/env_name=com HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 12:40:09 [error] 15668#22200: *88 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/git.lua:6: attempt to call global 'executeGitCommand' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/git.lua: in function 'pullCommand'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:177: in function 'pull_git'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:181: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=8888/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 12:45:53 [notice] 8080#11796: signal process started
+2024/05/04 12:45:57 [emerg] 6060#17044: bind() to 0.0.0.0:8888 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2024/05/04 12:45:57 [error] 7748#2528: *89 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:182: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=8888/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 12:45:58 [error] 7748#2528: *90 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:182: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=8888/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 12:45:59 [error] 7748#2528: *91 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:182: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=8888/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 12:46:35 [emerg] 4936#3104: bind() to 0.0.0.0:8888 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2024/05/04 12:46:51 [error] 7748#2528: *92 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:182: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 12:46:52 [error] 7748#2528: *93 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:182: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 12:46:53 [error] 9696#3428: *94 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:182: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:01:35 [notice] 5984#18468: signal process started
+2024/05/04 13:01:40 [error] 14344#13636: *95 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:195: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:01:41 [error] 14344#13636: *96 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:195: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:01:42 [error] 9224#8104: *97 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:195: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:02:42 [notice] 9724#9528: signal process started
+2024/05/04 13:02:45 [error] 15136#7476: *98 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:197: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:02:46 [error] 15136#7476: *99 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:197: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:02:47 [error] 772#2552: *100 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:197: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:03:17 [notice] 15008#10472: signal process started
+2024/05/04 13:03:20 [error] 9284#3472: *101 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:197: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:03:21 [error] 9284#3472: *102 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:197: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:03:22 [error] 20992#20100: *103 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:197: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:03:29 [notice] 20520#21792: signal process started
+2024/05/04 13:03:31 [error] 17848#5848: *104 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:197: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:03:32 [error] 17848#5848: *105 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:197: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:03:33 [error] 14060#5476: *106 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:197: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:03:39 [notice] 6524#18584: signal process started
+2024/05/04 13:03:42 [error] 4100#11644: *107 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:03:43 [error] 4100#11644: *108 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:03:44 [error] 11432#20624: *109 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:03:59 [notice] 17220#9048: signal process started
+2024/05/04 13:04:02 [error] 20944#15884: *110 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:04:02 [error] 20944#15884: *111 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:04:03 [error] 20892#11616: *112 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:23:21 [notice] 20524#6044: signal process started
+nginx: configuration file ./conf/nginx.conf test is successful
+2024/05/04 13:23:24 [error] 19108#19352: *113 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:23:24 [error] 19108#19352: *114 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:23:25 [error] 5128#8156: *115 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:23:49 [notice] 22356#17388: signal process started
+2024/05/04 13:23:52 [error] 1632#18564: *116 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:23:53 [error] 1632#18564: *117 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:23:54 [error] 8120#15544: *118 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:28:56 [notice] 3268#17260: signal process started
+nginx: configuration file ./conf/nginx.conf test is successful
+2024/05/04 13:28:59 [error] 16856#11108: *119 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:29:00 [error] 16856#11108: *120 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:29:01 [error] 7768#10624: *121 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:29:03 [error] 7768#10624: *122 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:29:04 [error] 1636#21732: *123 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:29:29 [notice] 3940#14084: signal process started
+2024/05/04 13:29:32 [error] 15856#21212: *124 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:29:32 [error] 15856#21212: *125 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:29:33 [error] 2312#9528: *126 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:29:52 [notice] 16728#1576: signal process started
+2024/05/04 13:29:55 [error] 15500#4688: *127 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:29:56 [error] 15500#4688: *128 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:29:57 [error] 11288#6712: *129 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:30:20 [notice] 16856#10104: signal process started
+2024/05/04 13:30:23 [error] 8544#20624: *130 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:30:24 [error] 8544#20624: *131 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:30:25 [error] 22244#8368: *132 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:30:30 [notice] 12576#3080: signal process started
+2024/05/04 13:30:33 [error] 14896#4624: *133 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:197: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:30:34 [error] 14896#4624: *134 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:197: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:30:35 [error] 11900#19800: *135 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:103: attempt to concatenate upvalue 'template_number' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:197: in main chunk, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:34:56 [notice] 22636#7824: signal process started
+2024/05/04 13:34:58 [error] 21704#12576: *137 failed to load external Lua file "./action_conf.lua": cannot open ./action_conf.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 13:34:58 [error] 21704#12576: *137 failed to load external Lua file "./action_conf.lua": cannot open ./action_conf.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8099", referrer: "http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com"
+2024/05/04 13:34:59 [error] 21704#12576: *137 failed to load external Lua file "./action_conf.lua": cannot open ./action_conf.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 13:35:09 [notice] 11148#18472: signal process started
+2024/05/04 13:35:10 [error] 21704#12576: *136 failed to load external Lua file "./action_conf.lua": cannot open ./action_conf.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 13:37:16 [notice] 15296#9048: signal process started
+2024/05/04 13:40:21 [notice] 21736#19504: signal process started
+2024/05/04 13:41:12 [notice] 10272#17268: signal process started
+nginx: configuration file ./conf/nginx.conf test is successful
+2024/05/04 13:41:30 [notice] 9528#17456: signal process started
+2024/05/04 13:41:46 [notice] 11132#2236: signal process started
+2024/05/04 13:47:27 [warn] 5292#15256: conflicting server name "go.ttpai.cn" on 0.0.0.0:7777, ignored
+2024/05/04 13:47:27 [warn] 5292#15256: conflicting server name "go.ttpai.cn" on 0.0.0.0:443, ignored
+2024/05/04 13:47:28 [warn] 11192#23352: conflicting server name "go.ttpai.cn" on 0.0.0.0:7777, ignored
+2024/05/04 13:47:28 [warn] 11192#23352: conflicting server name "go.ttpai.cn" on 0.0.0.0:443, ignored
+2024/05/04 13:47:28 [warn] 340#23068: conflicting server name "go.ttpai.cn" on 0.0.0.0:7777, ignored
+2024/05/04 13:47:28 [warn] 340#23068: conflicting server name "go.ttpai.cn" on 0.0.0.0:443, ignored
+2024/05/04 13:47:40 [warn] 19368#15868: conflicting server name "go.ttpai.cn" on 0.0.0.0:7777, ignored
+2024/05/04 13:47:40 [warn] 19368#15868: conflicting server name "go.ttpai.cn" on 0.0.0.0:443, ignored
+2024/05/04 13:47:40 [notice] 19368#15868: signal process started
+2024/05/04 13:47:40 [warn] 20944#23280: conflicting server name "go.ttpai.cn" on 0.0.0.0:7777, ignored
+2024/05/04 13:47:40 [warn] 20944#23280: conflicting server name "go.ttpai.cn" on 0.0.0.0:443, ignored
+2024/05/04 13:48:05 [warn] 19800#10812: conflicting server name "go.ttpai.cn" on 0.0.0.0:443, ignored
+2024/05/04 13:48:05 [notice] 19800#10812: signal process started
+2024/05/04 13:48:05 [warn] 22636#15464: conflicting server name "go.ttpai.cn" on 0.0.0.0:443, ignored
+2024/05/04 13:48:20 [warn] 8020#5276: conflicting server name "go.ttpai.cn" on 0.0.0.0:443, ignored
+2024/05/04 13:48:20 [notice] 8020#5276: signal process started
+2024/05/04 13:48:20 [warn] 23044#15660: conflicting server name "go.ttpai.cn" on 0.0.0.0:443, ignored
+2024/05/04 13:48:48 [warn] 19108#3388: conflicting server name "go.ttpai.cn" on 0.0.0.0:443, ignored
+2024/05/04 13:48:48 [notice] 19108#3388: signal process started
+2024/05/04 13:48:48 [warn] 1888#14748: conflicting server name "go.ttpai.cn" on 0.0.0.0:443, ignored
+2024/05/04 13:48:53 [notice] 12560#17676: signal process started
+2024/05/04 13:49:29 [error] 16036#20252: *150 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/git.lua:27: attempt to concatenate global 'current_time' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/git.lua: in function 'commitCommand'
+	content_by_lua(...-1.25.3.1-win64/site.enable/test.conf:17):5: in main chunk, client: 127.0.0.1, server: , request: "GET /git_push HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 13:50:41 [notice] 19636#14860: signal process started
+2024/05/04 13:51:11 [notice] 16600#16520: signal process started
+2024/05/04 13:53:55 [notice] 15848#14516: signal process started
+2024/05/04 13:54:41 [notice] 19944#18644: signal process started
+2024/05/04 13:55:07 [notice] 15348#18572: signal process started
+2024/05/04 13:59:47 [notice] 21736#740: signal process started
+2024/05/04 14:01:30 [notice] 4100#18584: signal process started
+2024/05/04 14:02:00 [notice] 21032#15076: signal process started
+2024/05/04 14:02:33 [notice] 16908#11396: signal process started
+2024/05/04 14:05:35 [notice] 19148#2108: signal process started
