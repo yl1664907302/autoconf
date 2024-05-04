@@ -1,8 +1,21 @@
 -- 如未配置免密，git需要配置账号密码在executeGitCommand中
 
 local git ={}
-local current_time = os.time()
-local formatted_time = os.date("%Y-%m-%d %H:%M:%S", current_time)
+
+-- 获取url的路径存入table
+local uri = ngx.var.uri
+local args = {}
+for part in uri:gmatch("/([^/]+)") do
+    local key, value = part:match("([^=]+)=([^/]+)")
+    if key and value then
+        args[key] = value
+    else
+        table.insert(args, part)
+    end
+end
+
+-- 提取commit信息
+local commit_message =  args["commit"]
 
 -- 操作命令
 function executeGitCommand(command)
@@ -33,15 +46,15 @@ end
 
 -- 执行git commit
 function git:commitCommand()
-local commit_message =  formatted_time .."---lua提交创建配置文件"
-local Result = executeGitCommand("git commit -m" ..commit_message)
+local commit_message2 = commit_message .. "---lua auto commit"
+local Result = executeGitCommand("git commit -m" .. commit_message)
 return Result
 end
 
 -- 示例操作：执行git push
 function git:pushCommand()
 local Result = executeGitCommand("git push origin master")
-return Result
+ngx.say("git push ok \n")
 end
 
 return git
