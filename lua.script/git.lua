@@ -46,7 +46,8 @@ end
 
 -- 执行git commit
 function git:commitCommand()
-local Result = executeGitCommand("git commit -m" .. commit_message)
+local commit_message2 = commit_message
+local Result = executeGitCommand("git commit -m" .. commit_message2)
 return Result
 end
 
