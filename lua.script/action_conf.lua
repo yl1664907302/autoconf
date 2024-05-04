@@ -12,7 +12,7 @@
 local action_conf ={}
 
 -- 定义替换变量
-local newname=""
+local newname
 local service=""
 local server_name=""
 local env_name=""
@@ -38,7 +38,6 @@ end
 
 -- 变量赋值
  template_number =args["template_number"]
- newname = args["newfile_name"]
  service = args["service_name"]
  server_name = args["server_name"]
  listen = args["listen_num"]
@@ -101,6 +100,7 @@ end
 -- 生成新文件
 function copy_files(source_dir, target_dir,ssl_key)
         local source_file = source_dir .. "/" .. template_number .. "---template.conf"
+        newname = make_newhost(service,env_name) .. ".conf"
         local target_file = target_dir .. "/" .. newname
         local f_source = io.open(source_file, "rb")
         if not f_source then

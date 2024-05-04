@@ -574,3 +574,131 @@ stack traceback:
 coroutine 0:
 	D:/openresty-1.25.3.1-win64/lua.script/git.lua: in function 'commitCommand'
 	content_by_lua(...-1.25.3.1-win64/site.enable/test.conf:18):9: in main chunk, client: 127.0.0.1, server: , request: "GET /git_push/commit=good3 HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 15:20:25 [notice] 24828#24244: signal process started
+2024/05/04 15:20:46 [error] 24520#23644: *228 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:82: bad argument #1 to 'gsub' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'gsub'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:82: in function 'make_newhost'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:102: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /service_name=ho_track/server_name=ho.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 15:20:47 [error] 24520#23644: *229 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:82: bad argument #1 to 'gsub' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'gsub'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:82: in function 'make_newhost'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:102: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /service_name=ho_track/server_name=ho.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 15:20:48 [error] 24520#23644: *230 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:82: bad argument #1 to 'gsub' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'gsub'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:82: in function 'make_newhost'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:102: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /service_name=ho_track/server_name=ho.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 15:20:50 [error] 24520#23644: *231 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:82: bad argument #1 to 'gsub' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'gsub'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:82: in function 'make_newhost'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:102: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /service_name=ho_track/server_name=ho.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 15:20:51 [error] 24520#23644: *232 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:82: bad argument #1 to 'gsub' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'gsub'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:82: in function 'make_newhost'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:102: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /service_name=ho_track/server_name=ho.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 15:20:52 [error] 24520#23644: *233 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:82: bad argument #1 to 'gsub' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'gsub'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:82: in function 'make_newhost'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:102: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /service_name=ho_track/server_name=ho.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 15:20:58 [error] 24520#23644: *235 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:82: bad argument #1 to 'gsub' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'gsub'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:82: in function 'make_newhost'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:102: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /service_name=ho_track/server_name=ho.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 15:20:59 [error] 24520#23644: *234 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:82: bad argument #1 to 'gsub' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'gsub'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:82: in function 'make_newhost'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:102: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /service_name=ho_track/server_name=ho.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 15:21:00 [error] 24520#23644: *236 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:82: bad argument #1 to 'gsub' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'gsub'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:82: in function 'make_newhost'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:102: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /service_name=ho_track/server_name=ho.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 15:21:31 [error] 24520#23644: *237 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:82: bad argument #1 to 'gsub' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'gsub'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:82: in function 'make_newhost'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:102: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /service_name=ho_track/server_name=ho.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 15:21:32 [error] 24520#23644: *238 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:82: bad argument #1 to 'gsub' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'gsub'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:82: in function 'make_newhost'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:102: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /service_name=ho_track/server_name=ho.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 15:21:33 [error] 24520#23644: *239 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:82: bad argument #1 to 'gsub' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'gsub'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:82: in function 'make_newhost'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:102: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /service_name=ho_track/server_name=ho.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 15:22:34 [error] 24520#23644: *240 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:82: bad argument #1 to 'gsub' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'gsub'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:82: in function 'make_newhost'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:102: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /service_name=ho_track/server_name=ho.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 15:22:35 [error] 24520#23644: *241 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:82: bad argument #1 to 'gsub' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'gsub'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:82: in function 'make_newhost'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:102: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /service_name=ho_track/server_name=ho.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 15:22:36 [error] 24520#23644: *242 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:82: bad argument #1 to 'gsub' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'gsub'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:82: in function 'make_newhost'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:102: in function 'copy_files'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:198: in main chunk, client: 127.0.0.1, server: , request: "GET /service_name=ho_track/server_name=ho.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 15:23:43 [notice] 25068#18260: signal process started
+2024/05/04 15:23:45 [error] 17656#11940: *243 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:183: attempt to concatenate global 'newname' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'show_conf'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:201: in main chunk, client: 127.0.0.1, server: , request: "GET /service_name=ho_track/server_name=ho.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 15:23:46 [error] 17656#11940: *244 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:183: attempt to concatenate global 'newname' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'show_conf'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:201: in main chunk, client: 127.0.0.1, server: , request: "GET /service_name=ho_track/server_name=ho.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 15:23:47 [error] 5468#13560: *245 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:183: attempt to concatenate global 'newname' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua: in function 'show_conf'
+	D:/openresty-1.25.3.1-win64/lua.script/action_conf.lua:201: in main chunk, client: 127.0.0.1, server: , request: "GET /service_name=ho_track/server_name=ho.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 15:25:49 [notice] 10076#24588: signal process started
+2024/05/04 15:26:21 [error] 4420#16956: *247 lua entry thread aborted: runtime error: D:/openresty-1.25.3.1-win64/lua.script/git.lua:49: attempt to concatenate upvalue 'commit_message' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openresty-1.25.3.1-win64/lua.script/git.lua: in function 'commitCommand'
+	content_by_lua(...-1.25.3.1-win64/site.enable/test.conf:18):9: in main chunk, client: 127.0.0.1, server: , request: "GET /git_push/commit=good4 HTTP/1.1", host: "127.0.0.1:8099"
