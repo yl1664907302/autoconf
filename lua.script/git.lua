@@ -15,7 +15,7 @@ for part in uri:gmatch("/([^/]+)") do
 end
 
 -- 提取commit信息
-local commit_message =  args["commit"]
+commit_message =  args["commit"]
 
 -- 操作命令
 function executeGitCommand(command)
