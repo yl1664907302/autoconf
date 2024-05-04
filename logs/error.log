@@ -506,3 +506,14 @@ coroutine 0:
 2024/05/04 14:02:00 [notice] 21032#15076: signal process started
 2024/05/04 14:02:33 [notice] 16908#11396: signal process started
 2024/05/04 14:05:35 [notice] 19148#2108: signal process started
+2024/05/04 14:09:10 [notice] 12616#23428: signal process started
+2024/05/04 14:09:12 [error] 4936#15076: *170 failed to load inlined Lua code: content_by_lua(...-1.25.3.1-win64/site.enable/test.conf:18):3: unexpected symbol near '#', client: 127.0.0.1, server: , request: "GET /git_push HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 14:09:13 [error] 4936#15076: *171 failed to load inlined Lua code: content_by_lua(...-1.25.3.1-win64/site.enable/test.conf:18):3: unexpected symbol near '#', client: 127.0.0.1, server: , request: "GET /git_push HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 14:09:14 [error] 4936#15076: *172 failed to load inlined Lua code: content_by_lua(...-1.25.3.1-win64/site.enable/test.conf:18):3: unexpected symbol near '#', client: 127.0.0.1, server: , request: "GET /git_push HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 14:09:14 [error] 4936#15076: *173 failed to load inlined Lua code: content_by_lua(...-1.25.3.1-win64/site.enable/test.conf:18):3: unexpected symbol near '#', client: 127.0.0.1, server: , request: "GET /git_push HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 14:10:34 [notice] 23116#7136: signal process started
+2024/05/04 14:12:43 [notice] 7084#11056: signal process started
+2024/05/04 14:13:26 [notice] 3064#20492: signal process started
+2024/05/04 14:18:19 [notice] 18544#2092: signal process started
+2024/05/04 14:23:29 [notice] 1512#19884: signal process started
+2024/05/04 14:24:01 [notice] 2948#21516: signal process started
