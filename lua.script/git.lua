@@ -33,7 +33,7 @@ end
 
 -- 执行git commit
 function git:commitCommand()
-local commit_message = "lua提交创建配置文件"
+local commit_message =  formatted_time .."---lua提交创建配置文件"
 local Result = executeGitCommand("git commit -m" ..commit_message)
 return Result
 end
