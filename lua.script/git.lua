@@ -46,10 +46,14 @@ end
 
 -- 执行git commit
 function git:commitCommand()
-local commit_message2 = commit_message
-local Result = executeGitCommand("git commit -m" .. commit_message2)
-return Result
+ local Result
+ local success, result_or_error = pcall(function()
+    Result = executeGitCommand("git commit -m" .. commit_message)
+ end)
+ return Result
 end
+
+
 
 -- 示例操作：执行git push
 function git:pushCommand()

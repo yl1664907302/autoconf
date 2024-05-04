@@ -714,3 +714,9 @@ stack traceback:
 coroutine 0:
 	D:/openresty-1.25.3.1-win64/lua.script/git.lua: in function 'commitCommand'
 	content_by_lua(...-1.25.3.1-win64/site.enable/test.conf:18):9: in main chunk, client: 127.0.0.1, server: , request: "GET /git_push/commit=good6 HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 15:43:53 [notice] 5740#3280: signal process started
+2024/05/04 15:44:08 [error] 24768#12880: *256 [lua] git.lua:57: commitCommand(): Failed to execute git commit: D:/openresty-1.25.3.1-win64/lua.script/git.lua:51: attempt to concatenate local 'commit_message2' (a nil value), client: 127.0.0.1, server: , request: "GET /git_push/commit=good7 HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 15:45:10 [notice] 16988#13268: signal process started
+2024/05/04 15:47:40 [notice] 24820#25572: signal process started
+2024/05/04 15:50:46 [notice] 7548#7084: signal process started
+2024/05/04 15:52:45 [notice] 9460#21968: signal process started
