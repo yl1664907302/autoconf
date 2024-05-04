@@ -517,3 +517,37 @@ coroutine 0:
 2024/05/04 14:18:19 [notice] 18544#2092: signal process started
 2024/05/04 14:23:29 [notice] 1512#19884: signal process started
 2024/05/04 14:24:01 [notice] 2948#21516: signal process started
+2024/05/04 14:25:15 [notice] 10696#3804: signal process started
+2024/05/04 14:25:22 [error] 19112#22340: *188 lua entry thread aborted: runtime error: error loading module 'git' from file 'D:/openresty-1.25.3.1-win64/lua.script/git.lua':
+	D:/openresty-1.25.3.1-win64/lua.script/git.lua:37: ')' expected near 'commit_message'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(...-1.25.3.1-win64/site.enable/test.conf:18):2: in main chunk, client: 127.0.0.1, server: , request: "GET /git_push HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 14:25:23 [error] 19112#22340: *189 lua entry thread aborted: runtime error: error loading module 'git' from file 'D:/openresty-1.25.3.1-win64/lua.script/git.lua':
+	D:/openresty-1.25.3.1-win64/lua.script/git.lua:37: ')' expected near 'commit_message'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(...-1.25.3.1-win64/site.enable/test.conf:18):2: in main chunk, client: 127.0.0.1, server: , request: "GET /git_push HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 14:25:24 [error] 19112#22340: *190 lua entry thread aborted: runtime error: error loading module 'git' from file 'D:/openresty-1.25.3.1-win64/lua.script/git.lua':
+	D:/openresty-1.25.3.1-win64/lua.script/git.lua:37: ')' expected near 'commit_message'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(...-1.25.3.1-win64/site.enable/test.conf:18):2: in main chunk, client: 127.0.0.1, server: , request: "GET /git_push HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 14:25:24 [error] 19112#22340: *191 lua entry thread aborted: runtime error: error loading module 'git' from file 'D:/openresty-1.25.3.1-win64/lua.script/git.lua':
+	D:/openresty-1.25.3.1-win64/lua.script/git.lua:37: ')' expected near 'commit_message'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(...-1.25.3.1-win64/site.enable/test.conf:18):2: in main chunk, client: 127.0.0.1, server: , request: "GET /git_push HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 14:25:24 [error] 19112#22340: *192 lua entry thread aborted: runtime error: error loading module 'git' from file 'D:/openresty-1.25.3.1-win64/lua.script/git.lua':
+	D:/openresty-1.25.3.1-win64/lua.script/git.lua:37: ')' expected near 'commit_message'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(...-1.25.3.1-win64/site.enable/test.conf:18):2: in main chunk, client: 127.0.0.1, server: , request: "GET /git_push HTTP/1.1", host: "127.0.0.1:8099"
+2024/05/04 14:27:56 [notice] 112#2960: signal process started
+2024/05/04 14:30:19 [notice] 2740#6524: signal process started
+2024/05/04 14:31:44 [notice] 7272#9492: signal process started
