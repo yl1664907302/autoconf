@@ -1,28 +1,15 @@
 -- 使用说明（默认证书为boss证书，证书需求，修改模版即可）
 
 -- 生成无ssl的conf
--- http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=8888/kube_name=k1/template_number=001/env_name=com
+-- http://127.0.0.1:8099/service_name=go_track/server_name=go.ttpai.cn/listen_num=8888/kube_name=k1/template_number=001/env_name=com
 -- 生成有ssl的conf
--- http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=8888/kube_name=k1/template_number=001/env_name=com/ssl=true
+-- http://127.0.0.1:8099/service_name=go_track/server_name=go.ttpai.cn/listen_num=8888/kube_name=k1/template_number=001/env_name=com/ssl=true
 -- 生成无ssl且转发至自定义后端的的conf
--- http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=8888/template_number=001/env_name=top/proxy_pass_name=111.111.111.111
+-- http://127.0.0.1:8099/service_name=go_track/server_name=go.ttpai.cn/listen_num=8888/template_number=001/env_name=top/proxy_pass_name=111.111.111.111
 -- 生成有ssl且转发至自定义后端的的conf
--- http://127.0.0.1:8099/action/newfile_name=test2.conf/service_name=go_track/server_name=go.ttpai.cn/listen_num=8888/template_number=001/env_name=top/proxy_pass_name=111.111.111.111/ssl=true
+-- http://127.0.0.1:8099/service_name=go_track/server_name=go.ttpai.cn/listen_num=8888/template_number=001/env_name=top/proxy_pass_name=111.111.111.111/ssl=true
 
 local action_conf ={}
-
--- 定义替换变量
-local newname
-local service=""
-local server_name=""
-local env_name=""
-local new_server_name=""
-local listen=""
-local template_number=""
-local ssl=false
-local update_domain=false
-local kube_name
-local proxy_pass_name=""
 
 -- 获取url的路径存入table
 local uri = ngx.var.uri
@@ -128,7 +115,9 @@ function copy_files(source_dir, target_dir,ssl_key)
 
     -- 替换关键信息
     replace_word(target_file,"www",server_name)
+    if listen then
     replace_word(target_file,"80",listen)
+    end
 
 
     -- 判断是否需要更换域名

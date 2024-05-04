@@ -54,7 +54,6 @@ function git:commitCommand()
 end
 
 
-
 -- 示例操作：执行git push
 function git:pushCommand()
 local Result = executeGitCommand("git push origin master")
