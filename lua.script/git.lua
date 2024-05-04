@@ -46,7 +46,6 @@ end
 
 -- 执行git commit
 function git:commitCommand()
-local commit_message2 = commit_message .. "---lua auto commit"
 local Result = executeGitCommand("git commit -m" .. commit_message)
 return Result
 end

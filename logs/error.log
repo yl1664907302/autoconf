@@ -566,3 +566,4 @@ coroutine 0:
 	D:/openresty-1.25.3.1-win64/lua.script/git.lua: in function 'commitCommand'
 	content_by_lua(...-1.25.3.1-win64/site.enable/test.conf:18):9: in main chunk, client: 127.0.0.1, server: , request: "GET /git_push/commit=good HTTP/1.1", host: "127.0.0.1:8099"
 2024/05/04 14:52:31 [notice] 9148#13836: signal process started
+2024/05/04 14:54:54 [notice] 17672#740: signal process started

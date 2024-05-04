@@ -235,3 +235,4 @@ nginx: configuration file ./conf/nginx.conf test is successful
 nginx: configuration file ./conf/nginx.conf test is successful
 127.0.0.1 - - [04/May/2024:14:53:21 +0800] "GET /newfile_name=test6.conf/service_name=io_track/server_name=io.ttpai.cn/listen_num=7777/kube_name=k1/template_number=001/env_name=com HTTP/1.1" 200 1844 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 127.0.0.1 - - [04/May/2024:14:53:29 +0800] "GET /git_push/commit=good2 HTTP/1.1" 200 142 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+127.0.0.1 - - [04/May/2024:14:54:38 +0800] "GET /git_push/commit=good2 HTTP/1.1" 200 119 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
